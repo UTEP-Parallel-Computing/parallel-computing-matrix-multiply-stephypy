@@ -1,5 +1,8 @@
 ## Parallel Computing Matrix Multiply Assignment
 
+Author: Stephanie Galvan <br>
+
+Assignment Instructions: <br>
 This repository contains some basic Python utilities for
 matrix operations. This is also the repository where
 you will submit the assignment.
