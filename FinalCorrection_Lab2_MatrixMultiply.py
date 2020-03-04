@@ -33,9 +33,9 @@ def printSubarray(matrix, size=10):
         print('')
 
 def multiply_matrix(mat_a, mat_b, total_threads):
-	"""
-	Receives two matrices and num of threads
-	"""
+    """
+    Receives two matrices and num of threads
+    """
     matrix = pymp.shared.array((len(mat_a), len(mat_b)), dtype="uint16")
 
     with pymp.Parallel(total_threads) as p:
